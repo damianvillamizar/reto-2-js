@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenar Arrays de Cadenas</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Ordenar Arrays de Cadenas</h1>
+
+        <p>
+            Ingrese nombres en la caja de texto de abajo y ordene este listado.
+        </p>
+
+        <div class="entrada">
+            <label for="nombre">Nombre:</label>
+
+            <input type="text" id="nombre">
+
+            <button id="btnAgregar">
+                Agregar y ordenar nombre
+            </button>
+        </div>
+
+        <h2>Nombres ordenados</h2>
+
+        <div class="salida">
+
+            <textarea
+                id="listaNombres"
+                placeholder="Aquí aparecerán los nombres ordenados"
+                readonly>
+            </textarea>
+
+            <button id="btnLimpiar">
+                Limpiar
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
